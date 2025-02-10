@@ -32,7 +32,7 @@ const TestimonialsSection = () => {
             <div className="p-5 pb-7">
               <div className="flex gap-0.5">
                 {[
-                  ...Array(5).map((_, i) => (
+                  [...Array(5)].map((_, i) => (
                     <img
                       key={i}
                       className="h-5"

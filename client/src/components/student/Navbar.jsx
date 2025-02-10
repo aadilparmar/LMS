@@ -18,7 +18,7 @@ const Navbar = () => {
         src={assets.logo}
         onClick={()=>{navigate('/')}}
         alt="Logo"
-        className="w-28 lg:w-20 cursor-pointer sm:w-12"
+        className="w-[50px] lg:w-[70px] cursor-pointer sm:w-12"
       />
       {/* <h1 className="text-3xl font-bold">Qt-World</h1> */}
       <div className="hidden md:flex items-center gap-10 text-gray-500">
