@@ -12,7 +12,7 @@ const SearchBar = ({ data }) => {
   return (
     <form
       onSubmit={onSearchHandler}
-      className="max-w-xl w-full md:h-14 h-12 flex items-center bg-white border border-gray-500/20 rounded"
+      className="max-w-xl w-90% lg:w-full md:h-14 h-12 flex items-center bg-white border border-gray-500/20 rounded"
     >
       <img
         src={assets.search_icon}

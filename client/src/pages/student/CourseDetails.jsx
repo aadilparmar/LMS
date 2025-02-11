@@ -2,10 +2,17 @@ import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { AppContext } from "../../context/AppContext";
 import Loading from "../../components/student/Loading";
+import { assets } from "../../assets/assets";
 const CourseDetails = () => {
   const { id } = useParams();
   const [courseData, setCourseData] = useState(null);
-  const { allCourses } = useContext(AppContext);
+  const {
+    allCourses,
+    calculateRating,
+    calculateChapterTime,
+    calculateCourseDuration,
+    calculateNoOfLectures,
+  } = useContext(AppContext);
   const fetchCourseData = async () => {
     const findCourse = allCourses.find((course) => course._id === id);
     setCourseData(findCourse);
@@ -19,9 +26,67 @@ const CourseDetails = () => {
         <div className="absolute left-0 top-0 w-full h-section-height -z-1 bg-gradient-to-b from-cyan-300/70"></div>
 
         {/* left Column */}
-        <div className="max-w-xl z-10 text-gray-500"> 
-          <h1 className="md:text-course-details-heading-large text-course-details-heading-large font-semibold text-gray-800">{courseData.courseTitle}</h1>
-          <p dangerouslySetInnerHTML={{__html:courseData.courseDescription.slice(0,200)}}></p>
+        <div className="max-w-xl z-10 text-gray-500">
+          <h1 className="md:text-course-details-heading-large text-course-details-heading-small font-semibold text-gray-800">
+            {courseData.courseTitle}
+          </h1>
+          <p
+            className="pt-4 md:text-base text-sm"
+            dangerouslySetInnerHTML={{
+              __html: courseData.courseDescription.slice(0, 300),
+            }}
+          ></p>
+          {/* Reviews and ratings */}
+          <div className="flex items-center space-x-2 pt-3">
+            <p>{calculateRating(courseData)}</p>
+            <div className="flex">
+              {[...Array(5)].map((_, i) => (
+                <img
+                  key={i}
+                  src={
+                    i < Math.floor(calculateRating(courseData))
+                      ? assets.star
+                      : assets.star_blank
+                  }
+                  className="w-3.5  h-3.5"
+                />
+              ))}
+            </div>
+            <p className="text-blue-500 ">
+              ({courseData.courseRatings.length} Ratings)
+            </p>
+            <p>{courseData.enrolledStudents.length} Students</p>
+          </div>
+          <p className="pt-2 text-black text-base">
+            Course By :{" "}
+            <span className="font-bold text-blue-700 underline ">
+              Jayy Parmar
+            </span>
+          </p>
+          <div className="pt-8 text-gray-800">
+            <h2 className="text-xl font-semibold">Course Structure</h2>
+            <div className="pt-5">
+              {courseData.courseContent.map((chapter, index) => (
+                <div
+                  key={index}
+                  className="border border-gray-300 bg-white mb-2 rounded"
+                >
+                  <div className="flex items-center justify-between px-4 py-3 cursor-pointer select-none">
+                    <div className="flex items-center gap-2">
+                      <img src={assets.down_arrow_icon} alt="arrow_icons" />
+                      <p className="font-medium md:text-base text-sm">
+                        {chapter.chapterTitle}
+                      </p>
+                    </div>
+                    <p className="text-sm md:text-default">
+                      {chapter.chapterContent.length} lectures -
+                      {calculateChapterTime(chapter)}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
         {/* right Column */}
         <div></div>
