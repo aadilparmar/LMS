@@ -10,15 +10,15 @@ const Navbar = () => {
   const { user } = useUser();
   return (
     <div
-      className={`flex items-center justify-between px-4 sm:px-10 md:px-14 lg:px-36 border-b border-gray-200 py-4 ${
-        isCourseListPage ? "bg-white" : "bg-cyan-100/70"
+      className={`flex items-center justify-between px-4 sm:px-10 md:px-14 lg:px-36  py-4 ${
+        isCourseListPage ? "bg-white" : "bg-cyan-300/70"
       }`}
     >
       <img
-        src={assets.logo}
+        src={assets.logo_1}
         onClick={()=>{navigate('/')}}
         alt="Logo"
-        className="w-[50px] lg:w-[70px] cursor-pointer sm:w-12"
+        className="w-[150px] lg:w-[200px] cursor-pointer sm:w-12"
       />
       {/* <h1 className="text-3xl font-bold">Qt-World</h1> */}
       <div className="hidden md:flex items-center gap-10 text-gray-500">
