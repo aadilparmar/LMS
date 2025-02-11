@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-gray-800 md:px-36 text-left w-full mt-10 ">
       <div className="flex flex-col md:flex-row items-start px-8 md:px-0 justify-center gap-10 md:gap-32 py-10 border-b border-white/30">
         <div>
-          <img className="h-[75px] w-[75px]" src={assets.logo} alt="logo" />
+          <img className="w-[200px]" src={assets.logo_1_white} alt="logo" />
           <p className=" mt-6 text-center md:text-left text-sm text-white/80">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
             numquam cupiditate quia earum quibusdam alias ullam similique
