@@ -233,7 +233,7 @@ export const dummyCourses = [
                         "lectureId": "lecture1",
                         "lectureTitle": "What is JavaScript?",
                         "lectureDuration": 16,
-                        "lectureUrl": "https://youtu.be/CBWnBi-awSA",
+                        "lectureUrl": "https://www.youtube.com/MwUBAFoY7CE",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
@@ -241,7 +241,7 @@ export const dummyCourses = [
                         "lectureId": "lecture2",
                         "lectureTitle": "Setting Up Your Environment",
                         "lectureDuration": 19,
-                        "lectureUrl": "https://youtu.be/4l87c2aeB4I",
+                        "lectureUrl": "https://www.youtube.com/MwUBAFoY7CE",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
@@ -306,7 +306,7 @@ export const dummyCourses = [
                         "lectureId": " lecture1",
                         "lectureTitle": "Lists and Tuples",
                         "lectureDuration": 720,
-                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "lectureUrl": "https://www.youtube.com/xmMo-qBaK-g",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
@@ -314,7 +314,7 @@ export const dummyCourses = [
                         "lectureId": "lecture2",
                         "lectureTitle": "Dictionaries and Sets",
                         "lectureDuration": 850,
-                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "lectureUrl": "https://www.youtube.com/xmMo-qBaK-g",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
