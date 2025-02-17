@@ -6,6 +6,8 @@ import { assets } from "../../assets/assets";
 import humanizeDuration from "humanize-duration";
 import Footer from "../../components/student/Footer";
 import YouTube from "react-youtube";
+import axios from "axios";
+import { toast } from "react-toastify";
 
 const CourseDetails = () => {
   const { id } = useParams();
@@ -20,15 +22,47 @@ const CourseDetails = () => {
     calculateChapterTime,
     calculateCourseDuration,
     calculateNoOfLectures,
+    backendUrl,
+    userData,
   } = useContext(AppContext);
   const fetchCourseData = async () => {
-    const findCourse = allCourses.find((course) => course._id === id);
-    setCourseData(findCourse);
+    // const findCourse = allCourses.find((course) => course._id === id);
+    // setCourseData(findCourse);
+    try {
+      const { data } = await axios.get(backendUrl + "/api/course/" + id);
+      if (data.success) {
+        setCourseData(data.courseData);
+      } else {
+        toast.error(data.message);
+      }
+    } catch (error) {
+      toast.error(data.message);
+    }
   };
+
+  const enrollCourse= async () => {
+    try {
+      if(!userData){
+        return toast.warn('Login to Enroll')
+      }
+      if(isAllreadyEnrolled)
+      {
+       return toast.warn('Already Enrolled') 
+      }
+    } catch (error) {
+      
+    }
+  }
+
   useEffect(() => {
     fetchCourseData();
-  },[allCourses]);
-  
+  }, []);
+  useEffect(() => {
+    if (userData && courseData) {
+      setIsAllReadyEnrolled(userData.enrolledCourses.includes(courseData._id))
+    }
+  }, [userData,courseData]);
+
   const toggleSection = (index) => {
     setOpenSection((prev) => ({
       ...prev,

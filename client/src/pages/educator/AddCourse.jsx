@@ -1,12 +1,14 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useContext, useEffect, useRef, useState } from "react";
 import uniqid from "uniqid";
 import Quill from "quill";
 import { assets } from "../../assets/assets";
-
+import { AppContext } from "../../context/AppContext";
+import { toast } from "react-toastify";
+import axios from "axios";
 const AddCourse = () => {
   const quillRef = useRef(null);
   const editorRef = useRef(null);
-
+  const { backendUrl, getToken } = useContext(AppContext);
   const [courseTitle, setCourseTitle] = useState("");
   const [coursePrice, setCoursePrice] = useState(0);
   const [discount, setDiscount] = useState("");
@@ -80,27 +82,61 @@ const AddCourse = () => {
               chapter.chapterContent.length > 0
                 ? chapter.chapterContent.slice(-1)[0].lectureOrder + 1
                 : 1,
-            lectureId: uniqid()
+            lectureId: uniqid(),
           };
-          chapter.chapterContent.push(newLecture)
+          chapter.chapterContent.push(newLecture);
         }
-        return chapter
+        return chapter;
       })
     );
     setShowPopUp(false);
     setLectureDetails({
-      lectureTitle:'',
-      lectureDuration:'',
-      lectureUrl:'',
-      isPreviewFree:false,
-    })
+      lectureTitle: "",
+      lectureDuration: "",
+      lectureUrl: "",
+      isPreviewFree: false,
+    });
   };
-  const handleSubmit=async(e)=>{
-    e.preventDefault()
-  }
+  const handleSubmit = async (e) => {
+    try {
+      e.preventDefault();
+      if (!image) {
+        toast.error("Thumbnail Not Selected");
+      }
+      const courseData = {
+        courseTitle,
+        courseDescription: quillRef.current.root.innerHTML,
+        coursePrice:Number(coursePrice),
+        discount:Number(discount),
+        courseContent:chapters,
+      };
+      const formData = new FormData()
+      formData.append('courseData',JSON.stringify(courseData))
+      formData.append('image',image)
+      const token = await getToken();
+      const {data} = await axios.post(backendUrl+'/api/educator/add-course',formData,{headers:{Authorization:`Bearer ${token}`}})
+      if(data.success)
+      {
+        toast.success(data.message)
+        setCourseTitle('')
+        setCoursePrice('')
+        setDiscount('')
+        setImage(null)
+        setChapters([])
+        quillRef.current.root.innerHTML="";
+      }
+      else
+      {
+        toast.error(data.message)
+      }
+    } catch (error) {toast.error(error.message)}
+  };
   return (
     <div className="h-screen overflow-scroll flex flex-col items-start justify-between md:p-8 md:pb-0 p-4 pt-8 pb-0 m-5">
-      <form onSubmit={handleSubmit} className="flex flex-col gap-4 max-w-md w-full text-gray-500 border border-gray-300 p-2 rounded-lg">
+      <form
+        onSubmit={handleSubmit}
+        className="flex flex-col gap-4 max-w-md w-full text-gray-500 border border-gray-300 p-2 rounded-lg"
+      >
         <div>
           <p>Course Title</p>
           <input
@@ -321,6 +357,7 @@ const AddCourse = () => {
           )}
         </div>
         <button
+        onClick={handleSubmit}
           type="submit"
           className="bg-black text-white w-max py-2.5 px-8 rounded my-4"
         >
