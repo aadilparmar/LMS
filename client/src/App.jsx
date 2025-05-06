@@ -14,6 +14,7 @@ import StudentsEnrolled from "./pages/educator/StudentsEnrolled";
 import Navbar from "./components/student/Navbar";
 import "quill/dist/quill.snow.css"
 import {ToastContainer} from 'react-toastify'
+import About from "./pages/student/About";
 
 const App = () => {
   const isEducatorRoute= useMatch('/educator/*');
@@ -23,6 +24,7 @@ const App = () => {
       {!isEducatorRoute &&<Navbar/>}
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/course-list/:input" element={<CoursesList />} />
         <Route path="/course-list" element={<CoursesList />} />
         <Route path="/course/:id" element={<CourseDetails />} />
@@ -30,10 +32,10 @@ const App = () => {
         <Route path="/player/:courseId" element={<Player />} />
         <Route path="/loading/:path" element={<Loading />} />
         <Route path="/educator" element={<Educator />}>
-          <Route path="/educator" element={<Dashboard />} />
-          <Route path="add-course" element={<AddCourse />} />
-          <Route path="my-course" element={<MyCourses />} />
-          <Route path="student-enrolled" element={<StudentsEnrolled />} />
+        <Route path="/educator" element={<Dashboard />} />
+        <Route path="add-course" element={<AddCourse />} />
+        <Route path="my-course" element={<MyCourses />} />
+        <Route path="student-enrolled" element={<StudentsEnrolled />} />
         </Route>
       </Routes>
     </div>

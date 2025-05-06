@@ -22,17 +22,17 @@ export const AppContextProvider = (props) => {
   const [userData, setUserData] = useState(null);
 
   const fetchAllCourses = async () => {
-    // setAllCourses(dummyCourses);
-    try {
-      const { data } = await axios.get(backendUrl + "/api/course/all");
-      if (data.success) {
-        setAllCourses(data.courses);
-      } else {
-        toast.error(data.message);
-      }
-    } catch (error) {
-      toast.error(error.message);
-    }
+   setAllCourses(dummyCourses);
+  //   try {
+  //     const { data } = await axios.get(backendUrl + "/api/course/all");
+  //     if (data.success) {
+  //       setAllCourses(data.courses);
+  //     } else {
+  //       toast.error(data.message);
+  //     }
+  //   } catch (error) {
+  //     toast.error(error.message);
+  //   }
   };
 
   // Function to Calculate Ratings
@@ -103,10 +103,10 @@ export const AppContextProvider = (props) => {
       if (data.success) {
         setEnrolledCourses(data.enrolledCourses.reverse());
       } else {
-        toast.error(data.message);
+        // toast.error(data.message);
       }
     } catch (error) {
-      toast.error(error.message)
+      // toast.error(error.message)
     }
   };
 
@@ -120,7 +120,14 @@ export const AppContextProvider = (props) => {
       fetchUserEnrolledCourses();
     }
   }, [user]);
-
+  const logToken = async ()=>{
+    console.log(await getToken())
+  }
+  useEffect(()=>{
+    if (user) {
+      logToken()
+    }
+  },[user])
   const value = {
     currency,
     allCourses,

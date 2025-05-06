@@ -26,18 +26,18 @@ const CourseDetails = () => {
     userData,
   } = useContext(AppContext);
   const fetchCourseData = async () => {
-    // const findCourse = allCourses.find((course) => course._id === id);
-    // setCourseData(findCourse);
-    try {
-      const { data } = await axios.get(backendUrl + "/api/course/" + id);
-      if (data.success) {
-        setCourseData(data.courseData);
-      } else {
-        toast.error(data.message);
-      }
-    } catch (error) {
-      toast.error(data.message);
-    }
+    const findCourse = allCourses.find((course) => course._id === id);
+    setCourseData(findCourse);
+  //   try {
+  //     const { data } = await axios.get(backendUrl + "/api/course/" + id);
+  //     if (data.success) {
+  //       setCourseData(data.courseData);
+  //     } else {
+  //      
+  //     }
+  //   } catch (error) {
+  //    
+  //   }
   };
 
   const enrollCourse= async () => {

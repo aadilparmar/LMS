@@ -127,9 +127,11 @@ const AddCourse = () => {
       }
       else
       {
+        console.log(data)
         toast.error(data.message)
       }
-    } catch (error) {toast.error(error.message)}
+    } catch (error)  {   
+      toast.error(error.message)}
   };
   return (
     <div className="h-screen overflow-scroll flex flex-col items-start justify-between md:p-8 md:pb-0 p-4 pt-8 pb-0 m-5">
@@ -169,7 +171,7 @@ const AddCourse = () => {
             <label htmlFor="thumbnailImage" className="flex items-center gap-3">
               <img
                 src={assets.file_upload_icon}
-                alt=""
+                alt="upload icon"
                 className="p-3 bg-blue-500 rounded"
               />
               <input
@@ -180,7 +182,7 @@ const AddCourse = () => {
                 hidden
               />
               <img
-                src={image ? URL.createObjectURL(image) : ""}
+                src={image ? URL.createObjectURL(image) : assets.file_upload_icon}
                 className="max-h-10"
                 alt=""
               />
@@ -357,7 +359,6 @@ const AddCourse = () => {
           )}
         </div>
         <button
-        onClick={handleSubmit}
           type="submit"
           className="bg-black text-white w-max py-2.5 px-8 rounded my-4"
         >

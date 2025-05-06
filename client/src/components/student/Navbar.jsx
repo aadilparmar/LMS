@@ -10,20 +10,20 @@ const Navbar = () => {
   const isCourseListPage = location.pathname.includes("/course-list");
   const { openSignIn } = useClerk();
   const { user } = useUser();
-  const becomeEducator= async()=>{
-    try {
-      if(isEducator)
-      {
-        navigate('/educator')
-        return;
-      }
-      else{
-        return toast.warn('Unauthorized Access Denied')
-      }
-    } catch (error) {
-      toast.error(error.message)
-    }
-  }
+  // const becomeEducator= async()=>{
+  //   try {
+  //     if(isEducator)
+  //     {
+  //       navigate('/educator')
+  //       return;
+  //     }
+  //     else{
+  //       return toast.warn('Unauthorized Access Denied')
+  //     }
+  //   } catch (error) {
+  //     toast.error(error.message)
+  //   }
+  // }
   return (
     <div
       className={`flex items-center justify-between px-4 sm:px-10 md:px-14 lg:px-36  py-4 ${
@@ -50,15 +50,22 @@ const Navbar = () => {
           <UserButton />
         ) : (
           <div>
-            <Link to="/" className="px-10">
+            <Link to="/" className="px-3">
               Home
             </Link>
-            <button
+            <Link to="/about" className="px-3">
+              About
+            </Link>
+            <Link to="/course-list" className="px-3">
+              Courses
+            </Link>
+            {/* <button
               onClick={() => openSignIn()}
               className="bg-blue-600 text-white px-5 py-2 rounded-full"
             >
               Create Account
-            </button>
+            </button> */}
+
           </div>
         )}
       </div>
