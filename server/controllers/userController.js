@@ -19,9 +19,8 @@ export const getUserData = async (req, res) => {
 export const userEnrolledCourses = async (req, res) => {
   try {
     const userId = req.auth.userId;
-    const userData = await User.findById(userId).populate("enrolledCourses");
-    console.log(userData);
-    res.json({ success: true, enrolledCourses: userData.enrolledCourses });
+    const userData = await User.findById(userId).populate('enrolledCourse');
+    res.json({ success: true, enrolledCourses: userData.enrolledCourse });
   } catch (error) {
     res.json({ success: false, message: error.message });
   }
@@ -133,7 +132,7 @@ export const addUserRating = async (req, res) => {
       res.json({ success: false, message: "Course Not FOund" });
     }
     const user = await User.findById(userId);
-    if (!user || !user.enrolledCourses.includes(courseId)) {
+    if (!user || !user.enrolledCourse.includes(courseId)) {
       res.json({
         success: false,
         message: "User has Not Purchased this course",

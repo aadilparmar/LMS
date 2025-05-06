@@ -13,7 +13,7 @@ export const updateRoleToEducator = async (req, res) => {
     });
     res.json({ success: true, message: "You can publish a course now" });
   } catch (error) {
-    // console.log(error)
+ console.log(error)
     res.json({ success: false, message: error.message });
   }
 };
@@ -32,7 +32,7 @@ export const addCourse = async (req, res) => {
     parsedCourseData.educator = educatorId;
     const newCourse = await Course.create(parsedCourseData);
     const imageUpload = await cloudinary.uploader.upload(imageFile.path);
-    newCourse.courseThumbnail = imageUpload.secure_url;
+    newCourse.courseThumbnail = imageUpload.secure_url
     await newCourse.save();
     res.json({ success: true, message: "Course Added" });
   } catch (error) {
@@ -50,7 +50,6 @@ export const getEducatorCourses = async (req, res) => {
   }
 };
 //Get Educator Dadhboard Data (Total Earnings , Enrolled Students , No.of Courses)
-
 export const educatorDashboardData = async (req, res) => {
   try {
     const educator = req.auth.userId;
@@ -67,6 +66,7 @@ export const educatorDashboardData = async (req, res) => {
       (sum, purchase) => sum + purchase.amount,
       0
     );
+
     //Collect unique enrolled student IDs with thier course title
     const enrolledStudentsData = [];
     for (const course of courses) {
