@@ -54,7 +54,7 @@ const Navbar = () => {
               Home
             </Link>
             <Link to="/about" className="px-3">
-              About
+              About Us
             </Link>
             <Link to="/course-list" className="px-3">
               Courses

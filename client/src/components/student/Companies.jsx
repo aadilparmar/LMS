@@ -1,7 +1,7 @@
 import React from 'react'
 import { assets } from '../../assets/assets'
 
-const Companies = () => {
+const   Companies = () => {
   return (
     <div className='pt-16'>
       <p className='text-base text-gray-500'>Get Certified from</p>
