@@ -45,9 +45,12 @@ import profile_img2 from './profile_img2.png'
 import profile_img3 from './profile_img3.png'
 import lesson_icon from './lesson_icon.svg'
 import jayy_parmar from './jayyparmar.png'
-
+import menu from './menu.svg'
+import close from './close.svg'
 export const assets = {
     jayy_parmar,
+    close,
+    menu,
     logo_1_white,
     logo_1 ,
     logo,
@@ -105,7 +108,23 @@ export const dummyEducatorData = {
     "updatedAt": "2024-12-12T10:56:17.930Z",
     "__v": 0
 }
-
+export const navLinks = [
+    {
+      id: 1,
+      name: 'Home',
+      href: '/',
+    },
+    {
+      id: 2,
+      name: 'About Us',
+      href: '/about',
+    },
+    {
+      id: 3,
+      name: 'Courses',
+      href: '/course-list',
+    },
+  ];
 export const dummyTestimonial = [
     {
         name: 'Donald Jackman',

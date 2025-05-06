@@ -3,8 +3,8 @@ import { assets } from "../../assets/assets";
 import { Link } from "react-router-dom";
 import { useClerk, UserButton, useUser } from "@clerk/clerk-react";
 import { AppContext } from "../../context/AppContext";
-import { toast } from "react-toastify";
-
+import { useState } from "react";
+import { navLinks } from "../../assets/assets";
 const Navbar = () => {
   const {navigate,isEducator,backendUrl,setIsEducator,getToken} = useContext(AppContext);
   const isCourseListPage = location.pathname.includes("/course-list");
@@ -24,6 +24,21 @@ const Navbar = () => {
   //     toast.error(error.message)
   //   }
   // }
+  const NavItems=()=>{
+      return(
+          <ul className='nav-ul'>
+              {navLinks.map(({id,href,name})=>(
+                  <li key={id} className='nav-li'>
+                      <a href={href} className='nav-li_a' onClick={()=>{}}>
+                          {name}
+                      </a>
+                  </li>
+              ))}
+          </ul>
+      )
+  }
+  const[isOpen,setisOpen]=useState(false);
+  const toggleMenu=()=>setisOpen((prevIsOpen)=>!prevIsOpen);
   return (
     <div
       className={`flex items-center justify-between px-4 sm:px-10 md:px-14 lg:px-36  py-4 ${
@@ -46,9 +61,6 @@ const Navbar = () => {
             </>
           )}
         </div>
-        {user ? (
-          <UserButton />
-        ) : (
           <div>
             <Link to="/" className="px-3">
               Home
@@ -59,32 +71,25 @@ const Navbar = () => {
             <Link to="/course-list" className="px-3">
               Courses
             </Link>
-            {/* <button
-              onClick={() => openSignIn()}
-              className="bg-blue-600 text-white px-5 py-2 rounded-full"
-            >
-              Create Account
-            </button> */}
-
+          <button onClick={toggleMenu} className='text-neutral-400 hover:text-white focus:outline-none sm:hidden flex'>
+                <img src={isOpen ? "assets/close.svg" : "assets/menu.svg"} alt="toggle" className='w-6 h-6' />
+            </button>
           </div>
-        )}
       </div>
       <div className="md:hidden flex  gap-2 sm:gap-5  text-gray-500">
-        <div className="flex items-center gap-1 sm:gap-2 max-sm:text-xs">
+        {/* <div className="flex items-center gap-1 sm:gap-2 max-sm:text-xs">
           {user && (
             <>
                <button onClick={()=>{navigate('/educator')}}>{isEducator?'Educator Dashboard':'Become Educator'}</button>|
               <Link to="/my-enrollments">My Courses</Link>
             </>
           )}
-        </div>
-        {user ? (
-          <UserButton />
-        ) : (
-          <button onClick={() => openSignIn()}>
-            <img src={assets.user_icon} alt="User_Icon" />
-          </button>
-        )}
+        </div> */}
+        <div className={`nav-sidebar ${isOpen?'max-h-0':'max-h-screen'}`}>
+        <nav className='p-5'>
+            <NavItems/>
+        </nav>
+      </div>
       </div>
     </div>
   );
