@@ -238,11 +238,11 @@ export const dummyStudentEnrolled = [
 export const dummyCourses = [
     {
         "_id": "605c72efb3f1c2b1f8e4e1a1",
-        "courseTitle": "Introduction to JavaScript",
+        "courseTitle": "Java Script Web Development",
         "courseDescription": "<h2>Learn the Basics of JavaScript</h2><p>JavaScript is a versatile programming language that powers the web. In this course, you will learn the fundamentals of JavaScript, including syntax, data types, and control structures.</p><p>This course is perfect for beginners who want to start their journey in web development. By the end of this course, you will be able to create interactive web pages and understand the core concepts of JavaScript.</p><ul><li>Understand the basics of programming</li><li>Learn how to manipulate the DOM</li><li>Create dynamic web applications</li></ul>",
-        "coursePrice": 4999,
+        "coursePrice": 6110,
         "isPublished": true,
-        "discount": 20,
+        "discount": 10,
         "courseContent": [
             {
                 "chapterId": "chapter1",
@@ -251,7 +251,7 @@ export const dummyCourses = [
                 "chapterContent": [
                     {
                         "lectureId": "lecture1",
-                        "lectureTitle": "What is JavaScript?",
+                        "lectureTitle": "Overview of JavaScript and its role in web development.",
                         "lectureDuration": 16,
                         "lectureUrl": "https://www.youtube.com/MwUBAFoY7CE",
                         "isPreviewFree": true,
@@ -265,6 +265,15 @@ export const dummyCourses = [
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
+                    ,
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": " Understanding the JavaScript execution context.",
+                        "lectureDuration": 19,
+                        "lectureUrl": "https://www.youtube.com/MwUBAFoY7CE",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
                 ]
             },
             {
@@ -273,7 +282,7 @@ export const dummyCourses = [
                 "chapterTitle": "Variables and Data Types",
                 "chapterContent": [
                     {
-                        "lectureId": "lecture3",
+                        "lectureId": "lecture5",
                         "lectureTitle": "Understanding Variables",
                         "lectureDuration": 20,
                         "lectureUrl": "https://youtu.be/pZQeBJsGoDQ",
@@ -281,8 +290,17 @@ export const dummyCourses = [
                         "lectureOrder": 1
                     },
                     {
-                        "lectureId": "lecture4",
-                        "lectureTitle": "Data Types in JavaScript",
+                        "lectureId": "lecture6",
+                        "lectureTitle": " Control structures (if statements, loops).",
+                        "lectureDuration": 10,
+                        "lectureUrl": "https://youtu.be/ufHT2WEkkC4",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Working on Functions and Scope",
                         "lectureDuration": 10,
                         "lectureUrl": "https://youtu.be/ufHT2WEkkC4",
                         "isPreviewFree": false,
@@ -290,6 +308,139 @@ export const dummyCourses = [
                     }
                 ]
             }
+            ,
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 2,
+                "chapterTitle": "Document Object Model (DOM)",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Introduction to the DOM and its structure",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/pZQeBJsGoDQ",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Accessing and manipulating HTML elements",
+                        "lectureDuration": 10,
+                        "lectureUrl": "https://youtu.be/ufHT2WEkkC4",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Handling events and interactions",
+                        "lectureDuration": 10,
+                        "lectureUrl": "https://youtu.be/ufHT2WEkkC4",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 2,
+                "chapterTitle": "JavaScript Objects and Functions",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": " Working with objects and methods",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/pZQeBJsGoDQ",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Creating and using functions.",
+                        "lectureDuration": 10,
+                        "lectureUrl": "https://youtu.be/ufHT2WEkkC4",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Closures, callbacks, and anonymous functions.",
+                        "lectureDuration": 10,
+                        "lectureUrl": "https://youtu.be/ufHT2WEkkC4",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 2,
+                "chapterTitle": " Asynchronous JavaScript",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Understanding asynchronous programming",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/pZQeBJsGoDQ",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Working with callbacks, promises, and async/await.",
+                        "lectureDuration": 10,
+                        "lectureUrl": "https://youtu.be/ufHT2WEkkC4",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Making AJAX requests with JavaScript",
+                        "lectureDuration": 10,
+                        "lectureUrl": "https://youtu.be/ufHT2WEkkC4",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 2,
+                "chapterTitle": "  Error Handling and Debugging",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Identifying and handling JavaScript errors.",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/pZQeBJsGoDQ",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Debugging techniques and tools",
+                        "lectureDuration": 10,
+                        "lectureUrl": "https://youtu.be/ufHT2WEkkC4",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Error handling and graceful degradation",
+                        "lectureDuration": 10,
+                        "lectureUrl": "https://youtu.be/ufHT2WEkkC4",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            
         ],
         "educator": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
@@ -311,20 +462,20 @@ export const dummyCourses = [
     },
     {
         "_id": "675ac1512100b91a6d9b8b24",
-        "courseTitle": "Advanced Python Programming",
+        "courseTitle": "Python Programming",
         "courseDescription": "<h2>Deep Dive into Python Programming</h2><p>This course is designed for those who have a basic understanding of Python and want to take their skills to the next level. You will explore advanced topics such as decorators, generators, and context managers.</p><p>By the end of this course, you will be able to write efficient and clean Python code, and understand how to leverage Python's powerful features for real-world applications.</p><ul><li>Master advanced data structures</li><li>Implement object-oriented programming concepts</li><li>Work with libraries and frameworks</li></ul>",
-        "coursePrice": 3499,
+        "coursePrice": 9444,
         "isPublished": true,
-        "discount": 15,
+        "discount": 10,
         "courseContent": [
             {
                 "chapterId": "chapter1",
                 "chapterOrder": 1,
-                "chapterTitle": "Advanced Data Structures",
+                "chapterTitle": " Introduction to Python",
                 "chapterContent": [
                     {
                         "lectureId": " lecture1",
-                        "lectureTitle": "Lists and Tuples",
+                        "lectureTitle": "An overview of Python and its importance in the programming world",
                         "lectureDuration": 720,
                         "lectureUrl": "https://www.youtube.com/xmMo-qBaK-g",
                         "isPreviewFree": true,
@@ -332,7 +483,48 @@ export const dummyCourses = [
                     },
                     {
                         "lectureId": "lecture2",
-                        "lectureTitle": "Dictionaries and Sets",
+                        "lectureTitle": "Setting up a Python development environment",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://www.youtube.com/xmMo-qBaK-g",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Writing and running Python programs",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://www.youtube.com/xmMo-qBaK-g",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter1",
+                "chapterOrder": 1,
+                "chapterTitle": "Variables, Data Types, and Operators",
+                "chapterContent": [
+                    {
+                        "lectureId": " lecture1",
+                        "lectureTitle": "Variables and data storage in Python",
+                        "lectureDuration": 720,
+                        "lectureUrl": "https://www.youtube.com/xmMo-qBaK-g",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": " Data types (integers, floats, strings, and more)",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://www.youtube.com/xmMo-qBaK-g",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Operators for arithmetic, comparison, and logical operations.",
                         "lectureDuration": 850,
                         "lectureUrl": "https://www.youtube.com/xmMo-qBaK-g",
                         "isPreviewFree": false,
@@ -343,11 +535,11 @@ export const dummyCourses = [
             {
                 "chapterId": "chapter2",
                 "chapterOrder": 2,
-                "chapterTitle": "Object-Oriented Programming",
+                "chapterTitle": "Control Structure",
                 "chapterContent": [
                     {
                         "lectureId": "lecture3",
-                        "lectureTitle": "Classes and Objects",
+                        "lectureTitle": "Conditional Statements(if ,else , elif)",
                         "lectureDuration": 900,
                         "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
                         "isPreviewFree": true,
@@ -355,9 +547,183 @@ export const dummyCourses = [
                     },
                     {
                         "lectureId": "lecture4",
-                        "lectureTitle": "Inheritance and Polymorphism",
+                        "lectureTitle": "Loops (for and while)",
                         "lectureDuration": 950,
                         "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Loops Control (Break and Continue).",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://www.youtube.com/xmMo-qBaK-g",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Funtion and Modules",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Creating and using functions in Python",
+                        "lectureDuration": 900,
+                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Function parameters and return values",
+                        "lectureDuration": 950,
+                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Importing and using modules.",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://www.youtube.com/xmMo-qBaK-g",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "DataStructure",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Lists, tuples, and dictionaries.",
+                        "lectureDuration": 900,
+                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "List comprehensions",
+                        "lectureDuration": 950,
+                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Loops Control (Break and Continue).",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://www.youtube.com/xmMo-qBaK-g",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "File Handling",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Reading and writing files in Python.",
+                        "lectureDuration": 900,
+                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Working with text and binary files",
+                        "lectureDuration": 950,
+                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Exception handling and file-related errors.",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://www.youtube.com/xmMo-qBaK-g",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Object-Oriented Programming (OOP)",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Introduction to OOP in Python.",
+                        "lectureDuration": 900,
+                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Classes, objects, and methods.",
+                        "lectureDuration": 950,
+                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Inheritance and polymorphism.",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://www.youtube.com/xmMo-qBaK-g",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Web Development with Python",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Introduction to web frameworks (e.g., Flask or Django).",
+                        "lectureDuration": 900,
+                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Building web applications with Python.",
+                        "lectureDuration": 950,
+                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": " Interaction with databases.",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://www.youtube.com/xmMo-qBaK-g",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
