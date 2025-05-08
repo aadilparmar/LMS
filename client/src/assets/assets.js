@@ -749,20 +749,20 @@ export const dummyCourses = [
     },
     {
         "_id": "605c72efb3f1c2b1f8e4e1ae",
-        "courseTitle": "Cybersecurity Basics",
-        "courseDescription": "<h2>Protect Systems and Networks</h2><p>Cybersecurity is critical in today's digital age. This course introduces the fundamentals of cybersecurity, including threat analysis, ethical hacking, and secure programming practices.</p><p>By the end of this course, you will understand how to identify vulnerabilities and implement security measures effectively.</p><ul><li>Understand security protocols</li><li>Learn about encryption techniques</li><li>Conduct basic penetration testing</li></ul>",
-        "coursePrice": 6000,
+        "courseTitle": "Ethical Hacking",
+        "courseDescription": "<h2>Learn Ethical Hacking </h2><p>Cybersecurity is critical in today's digital age. This course introduces the fundamentals of cybersecurity, including threat analysis, ethical hacking, and secure programming practices.</p><p>By the end of this course, you will understand how to identify vulnerabilities and implement security measures effectively.</p><ul><li>Understand security protocols</li><li>Learn about encryption techniques</li><li>Conduct basic penetration testing</li></ul>",
+        "coursePrice": 25882,
         "isPublished": true,
         "discount": 15,
         "courseContent": [
             {
                 "chapterId": "chapter1",
                 "chapterOrder": 1,
-                "chapterTitle": "Introduction to Cybersecurity",
+                "chapterTitle": "Introduction to Ethical Hacking",
                 "chapterContent": [
                     {
                         "lectureId": "lecture1",
-                        "lectureTitle": "What is Cybersecurity?",
+                        "lectureTitle": "Overview of ethical hacking and its importance in cybersecurity",
                         "lectureDuration": 10,
                         "lectureUrl": "https://youtu.be/samplelink5",
                         "isPreviewFree": true,
@@ -770,7 +770,16 @@ export const dummyCourses = [
                     },
                     {
                         "lectureId": "lecture2",
-                        "lectureTitle": "Types of Cyber Threats",
+                        "lectureTitle": "Legal and ethical considerations in hacking",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Differentiating between ethical and malicious hacking.",
                         "lectureDuration": 18,
                         "lectureUrl": "https://youtu.be/samplelink6",
                         "isPreviewFree": false,
@@ -781,11 +790,11 @@ export const dummyCourses = [
             {
                 "chapterId": "chapter2",
                 "chapterOrder": 2,
-                "chapterTitle": "Basic Security Practices",
+                "chapterTitle": "Information Gathering and Footprinting",
                 "chapterContent": [
                     {
                         "lectureId": "lecture3",
-                        "lectureTitle": "Password Management",
+                        "lectureTitle": "Collecting information about a target",
                         "lectureDuration": 15,
                         "lectureUrl": "https://youtu.be/samplelink7",
                         "isPreviewFree": true,
@@ -793,14 +802,222 @@ export const dummyCourses = [
                     },
                     {
                         "lectureId": "lecture4",
-                        "lectureTitle": "Network Security Essentials",
+                        "lectureTitle": " Passive and active reconnaissance techniques.",
                         "lectureDuration": 20,
                         "lectureUrl": "https://youtu.be/samplelink8",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": " Tools for footprinting and information gathering",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
                 ]
             }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": " Scanning and Enumeration",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": " Network scanning methods (e.g., port scanning, banner grabbing)",
+                        "lectureDuration": 15,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": " Enumerating services and users.",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": " Vulnerability scanning.",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": " Exploitation and Post-Exploitation",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Vulnerability analysis and exploitation",
+                        "lectureDuration": 15,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": " Gaining unauthorized access.",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": " Post-exploitation activities and maintaining access",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Web Application Hacking",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Identifying and exploiting web application vulnerabilities.",
+                        "lectureDuration": 15,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": " Cross-Site Scripting (XSS), SQL injection, and more.",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": " Web application security best practices",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Wireless Network Hacking",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Wireless network security (WEP, WPA, WPA2).",
+                        "lectureDuration": 15,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "  Wireless network attacks (e.g., WPS attacks)",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Securing wireless networks.",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Malware Analysis and Reverse Engineering",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Analyzing and reverse engineering malicious software",
+                        "lectureDuration": 15,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": " Identifying malware behavior",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Developing countermeasures",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Ethical Hacking in Practice",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Real-world ethical hacking scenarios",
+                        "lectureDuration": 15,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": " Reporting vulnerabilities and responsible disclosure.",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": " Preparing for ethical hacking certifications",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+
         ],
         "educator": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
@@ -811,24 +1028,24 @@ export const dummyCourses = [
         "createdAt": "2024-12-27T11:30:00.000Z",
         "updatedAt": "2024-12-31T04:14:49.773Z",
         "__v": 2,
-        "courseThumbnail": "https://img.youtube.com/vi/jZFaMEqEqEQ/maxresdefault.jpg"
+        "courseThumbnail": "https://img.youtube.com/vi/2eLJNBroFrg/maxresdefault.jpg"
     },
     {
         "_id": "605c72efb3f1c2b1f8e4e1a7",
-        "courseTitle": "Web Development Bootcamp",
-        "courseDescription": "<h2>Become a Full-Stack Web Developer</h2><p>This comprehensive bootcamp covers everything you need to know to become a full-stack web developer. From HTML and CSS to JavaScript and backend technologies, this course is designed to take you from beginner to job-ready.</p><p>Throughout the course, you will work on real-world projects, build a portfolio, and gain the skills necessary to succeed in the tech industry.</p><ul><li>Learn front-end and back-end development</li><li>Build responsive and dynamic web applications</li><li>Understand databases and server-side programming</li></ul>",
-        "coursePrice": 3500,
+        "courseTitle": "React Js",
+        "courseDescription": "<h2>Become a Full-Stack Web Developer</h2><p>This comprehensive bootcamp covers everything you need to know to become a React Js developer. From HTML and CSS to JavaScript and backend technologies, this course is designed to take you from beginner to job-ready.</p><p>Throughout the course, you will work on real-world projects, build a portfolio, and gain the skills necessary to succeed in the tech industry.</p><ul><li>Learn front-end and back-end development</li><li>Build responsive and dynamic web applications</li><li>Understand databases and server-side programming</li></ul>",
+        "coursePrice": 16666.65,
         "isPublished": true,
         "discount": 25,
         "courseContent": [
             {
                 "chapterId": "chapter1",
                 "chapterOrder": 1,
-                "chapterTitle": "HTML & CSS Basics",
+                "chapterTitle": "Introduction to React.js",
                 "chapterContent": [
                     {
                         "lectureId": "lecture1",
-                        "lectureTitle": "Introduction to HTML",
+                        "lectureTitle": " Overview of React.js and its role in web development.",
                         "lectureDuration": 600,
                         "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
                         "isPreviewFree": true,
@@ -836,7 +1053,16 @@ export const dummyCourses = [
                     },
                     {
                         "lectureId": "lecture2",
-                        "lectureTitle": "Styling with CSS",
+                        "lectureTitle": "Setting up a React.js development environment.",
+                        "lectureDuration": 720,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Understanding components and the virtual DOM",
                         "lectureDuration": 720,
                         "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
                         "isPreviewFree": false,
@@ -847,11 +1073,11 @@ export const dummyCourses = [
             {
                 "chapterId": "chapter2",
                 "chapterOrder": 2,
-                "chapterTitle": "JavaScript Fundamentals",
+                "chapterTitle": "Creating and Rendering Components",
                 "chapterContent": [
                     {
                         "lectureId": "lecture3",
-                        "lectureTitle": "JavaScript Basics",
+                        "lectureTitle": "Building and rendering React components",
                         "lectureDuration": 800,
                         "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
                         "isPreviewFree": true,
@@ -859,8 +1085,208 @@ export const dummyCourses = [
                     },
                     {
                         "lectureId": "lecture4",
-                        "lectureTitle": "DOM Manipulation",
+                        "lectureTitle": "JSX (JavaScript XML) and component structure",
                         "lectureDuration": 850,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Handling data and props",
+                        "lectureDuration": 720,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "State Management and Lifecycle Methods",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Managing component state",
+                        "lectureDuration": 800,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Component lifecycle methods.",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Handling events and user interactions.",
+                        "lectureDuration": 720,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": " Routing and Navigation with React Router",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Introduction to React Router.",
+                        "lectureDuration": 800,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Creating single-page applications with routing",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Nested routes and navigation.",
+                        "lectureDuration": 720,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Working with Forms and User Input",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Building forms and controlled components",
+                        "lectureDuration": 800,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Handling form submissions and validation.",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Implementing controlled and uncontrolled components.",
+                        "lectureDuration": 720,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "State Management with Redux",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": " Introduction to state management with Redux.",
+                        "lectureDuration": 800,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Actions, reducers, and the Redux store",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Connecting React components to the Redux store",
+                        "lectureDuration": 720,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Consuming APIs and Data with Axios",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": " Making HTTP requests with Axios.",
+                        "lectureDuration": 800,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Consuming RESTful APIs.",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Handling data and asynchronous operations.",
+                        "lectureDuration": 720,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Building and Deploying React Applications",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": " Building and optimizing React applications.",
+                        "lectureDuration": 800,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Deployment options and strategies.",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Debugging and performance optimization",
+                        "lectureDuration": 720,
                         "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
                         "isPreviewFree": false,
                         "lectureOrder": 2
@@ -877,7 +1303,7 @@ export const dummyCourses = [
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2024-12-31T05:31:27.290Z",
         "__v": 2,
-        "courseThumbnail": "https://img.youtube.com/vi/lpx2zFkapIk/maxresdefault.jpg"
+        "courseThumbnail": "https://img.youtube.com/vi/CgkZ7MvWUAA/maxresdefault.jpg"
     },
     {
         "_id": "605c72efb3f1c2b1f8e4e1ac",
