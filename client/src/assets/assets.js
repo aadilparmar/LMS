@@ -3481,10 +3481,10 @@ export const dummyCourses = [
         "courseThumbnail": "https://img.youtube.com/vi/t0syDUSbdfE/maxresdefault.jpg"
     },
     {
-        "_id": "805d34f7b8c9a1e2f7d8c3ab",
+        "_id": "901634f7b8c9a1e2f7d8c3ab",
         "courseTitle": "Advance PHP",
         "courseDescription": "<h2>Learn Advance PHP</h2><p>Advanced PHP development builds on the fundamentals of PHP programming and enables you to create complex, feature-rich web applications. This course focuses on advanced PHP topics and techniques for building robust, scalable web applications.</p><ul><li>Understand common cybersecurity threats</li><li>Learn about encryption and secure communication</li><li>Explore tools for penetration testing</li></ul>",
-        "coursePrice": 25000,
+        "coursePrice": 17000,
         "isPublished": true,
         "discount": 50,
         "courseContent": [
@@ -3746,5 +3746,540 @@ export const dummyCourses = [
         "updatedAt": "2025-01-02T06:56:13.208Z",
         "__v": 1,
         "courseThumbnail": "https://img.youtube.com/vi/t0syDUSbdfE/maxresdefault.jpg"
+    },
+    {
+        "_id": "601d34f7b8c9a1e2f7d8c3ab",
+        "courseTitle": "Adode Photoshop",
+        "courseDescription": "<h2>Learn Adobe Photoshop</h2><p>Adobe Photoshop is a leading software for image editing and graphic design. This course will provide you with a comprehensive understanding of Photoshop's tools and features, enabling you to create professional-quality graphic designs and photo manipulations.</p><ul><li>Understand common cybersecurity threats</li><li>Learn about encryption and secure communication</li><li>Explore tools for penetration testing</li></ul>",
+        "coursePrice":17000,
+        "isPublished": true,
+        "discount": 50,
+        "courseContent": [
+            {
+                "chapterId": "chapter1",
+                "chapterOrder": 1,
+                "chapterTitle": "Introduction to Adobe Photoshop",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture1",
+                        "lectureTitle": "Overview of Adobe Photoshop and Its Importance in Graphic Design",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink1",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Setting Up a Design Workspace and Preferences",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Understanding Raster Graphics and Image Properties",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink3",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Basic Tools and Navigation",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Familiarizing with Photoshop's Interface and Tools",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink4",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Navigating and Zooming in Images",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink5",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Using Selection Tools for Basic Editing",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Image Editing and Manipulation",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Adjusting Image Brightness, Contrast, and Color",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Working with Layers for Non-Destructive Editing",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Retouching and Enhancing Photos",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink9",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Text and Typography",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Adding and Formatting Text in Photoshop",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink10",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Layer Styles and Text Effects",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink11",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture12",
+                        "lectureTitle": "Creating Text as Graphic Elements",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink12",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Drawing and Painting Tools",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture13",
+                        "lectureTitle": "Utilizing Drawing and Painting Tools (Brush, Pencil)",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink13",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture14",
+                        "lectureTitle": "Working with Brushes, Gradients, and Patterns",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink14",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture15",
+                        "lectureTitle": "Creating Digital Illustrations and Artwork",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink15",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "chapterOrder": 6,
+                "chapterTitle": "Image Composition and Collage",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture16",
+                        "lectureTitle": "Combining and Arranging Multiple Images",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink16",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture17",
+                        "lectureTitle": "Creating Image Compositions and Collages",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink17",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture18",
+                        "lectureTitle": "Applying Blending Modes and Layer Masks",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink18",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "chapterOrder": 7,
+                "chapterTitle": "Special Effects and Filters",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture19",
+                        "lectureTitle": "Applying Artistic and Photo Filters",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink19",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture20",
+                        "lectureTitle": "Creating Special Effects and Image Distortions",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink20",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture21",
+                        "lectureTitle": "Working with 3D Objects and Text",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink21",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "chapterOrder": 8,
+                "chapterTitle": "Advanced Techniques and Output",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture22",
+                        "lectureTitle": "Advanced Retouching and Restoration Techniques",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink22",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture23",
+                        "lectureTitle": "Preparing Designs for Print and Digital Use",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink23",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture24",
+                        "lectureTitle": "Exporting Designs in Various File Formats",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink24",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            }        
+        ],
+        "educator": "675ac1512100b91a6d9b8b24",
+        "enrolledStudents": [
+            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+        ],
+        "courseRatings": [],
+        "createdAt": "2024-12-17T08:16:53.622Z",
+        "updatedAt": "2025-01-02T06:56:13.208Z",
+        "__v": 1,
+        "courseThumbnail": "https://img.youtube.com/vi/_nQKf_Fgk_M/maxresdefault.jpg"
+    },
+    {
+        "_id": "805d34f7b8c9a1e2f7d8c3ab",
+        "courseTitle": "CorelDRAW Graphic Design",
+        "courseDescription": "<h2>Learn Advance PHP</h2><p>CorelDRAW is a popular vector graphics software used for graphic design and illustration. This course will provide you with a comprehensive understanding of CorelDRAW's tools and features, enabling you to create professional-quality graphic designs.</p><ul><li>Understand common cybersecurity threats</li><li>Learn about encryption and secure communication</li><li>Explore tools for penetration testing</li></ul>",
+        "coursePrice": 25000,
+        "isPublished": true,
+        "discount": 50,
+        "courseContent": [
+            {
+                "chapterId": "chapter1",
+                "chapterOrder": 1,
+                "chapterTitle": "Introduction to CorelDRAW",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture1",
+                        "lectureTitle": "Overview of CorelDRAW and Its Importance in Graphic Design",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink1",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Setting Up a Design Workspace and Preferences",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Understanding Vector Graphics and Design Concepts",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink3",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Basic Drawing and Shapes",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Creating Basic Shapes and Lines",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink4",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Modifying Shapes Using Tools and Properties",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink5",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Combining and Arranging Objects",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Color and Fills",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Working with Colors, Gradients, and Patterns",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Using Color Palettes and Swatches",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Creating and Editing Color Fills",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink9",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Text and Typography",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Adding and Formatting Text",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink10",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Handling Text Styles, Fonts, and Text Effects",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink11",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture12",
+                        "lectureTitle": "Creating Text as Objects",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink12",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Drawing and Editing Tools",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture13",
+                        "lectureTitle": "Utilizing Drawing Tools (Pen, Brush, and Pencil)",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink13",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture14",
+                        "lectureTitle": "Working with Nodes and Curves",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink14",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture15",
+                        "lectureTitle": "Applying Transformations and Effects",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink15",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "chapterOrder": 6,
+                "chapterTitle": "Working with Images",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture16",
+                        "lectureTitle": "Importing and Editing Raster Images",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink16",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture17",
+                        "lectureTitle": "Tracing and Converting Images to Vector",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink17",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture18",
+                        "lectureTitle": "Creating Image Collages and Compositions",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink18",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "chapterOrder": 7,
+                "chapterTitle": "Layout and Page Design",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture19",
+                        "lectureTitle": "Page Setup and Layout Design",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink19",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture20",
+                        "lectureTitle": "Working with Multiple Pages and Artboards",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink20",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture21",
+                        "lectureTitle": "Creating Brochures, Posters, and Business Cards",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink21",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "chapterOrder": 8,
+                "chapterTitle": "Advanced Techniques and Output",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture22",
+                        "lectureTitle": "Applying Advanced Design Techniques",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink22",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture23",
+                        "lectureTitle": "Best Practices for Integrating Bootstrap with JavaScript Frameworks",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink23",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture24",
+                        "lectureTitle": "Exporting Designs in Various File Formats",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink24",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            }
+        
+        ],
+        "educator": "675ac1512100b91a6d9b8b24",
+        "enrolledStudents": [
+            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+        ],
+        "courseRatings": [],
+        "createdAt": "2024-12-17T08:16:53.622Z",
+        "updatedAt": "2025-01-02T06:56:13.208Z",
+        "__v": 1,
+        "courseThumbnail": "https://img.youtube.com/vi/mbpoxL_kCNE/maxresdefault.jpg"
     }
 ]
