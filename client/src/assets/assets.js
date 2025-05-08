@@ -1307,20 +1307,20 @@ export const dummyCourses = [
     },
     {
         "_id": "605c72efb3f1c2b1f8e4e1ac",
-        "courseTitle": "Cloud Computing Essentials",
-        "courseDescription": "<h2>Master Cloud Fundamentals</h2><p>Learn the foundations of cloud computing and explore popular cloud platforms like AWS, Azure, and Google Cloud. This course is ideal for IT professionals and developers looking to transition to cloud-based solutions.</p><p>By the end of this course, you will understand cloud services, deployment models, and best practices for using cloud resources efficiently.</p><ul><li>Understand cloud architecture</li><li>Learn to work with AWS, Azure, and GCP</li><li>Explore serverless computing and storage solutions</li></ul>",
-        "coursePrice": 69.99,
+        "courseTitle": "HTML 5",
+        "courseDescription": "<h2>Master HTML 5</h2><p>HTML5 is the latest iteration of the standard markup language for creating web pages. This course will provide you with a comprehensive understanding of HTML5 and its features, enabling you to create modern and interactive web content.</p><p>By the end of this course, you will understand cloud services, deployment models, and best practices for using cloud resources efficiently.</p><ul><li>Understand cloud architecture</li><li>Learn to work with AWS, Azure, and GCP</li><li>Explore serverless computing and storage solutions</li></ul>",
+        "coursePrice":6875,
         "isPublished": true,
         "discount": 20,
         "courseContent": [
             {
                 "chapterId": "chapter1",
                 "chapterOrder": 1,
-                "chapterTitle": "Cloud Fundamentals",
+                "chapterTitle": "Introduction to HTML5",
                 "chapterContent": [
                     {
                         "lectureId": "lecture1",
-                        "lectureTitle": "What is Cloud Computing?",
+                        "lectureTitle": "Overview of HTML5 and its significance.",
                         "lectureDuration": 600,
                         "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
                         "isPreviewFree": true,
@@ -1328,7 +1328,16 @@ export const dummyCourses = [
                     },
                     {
                         "lectureId": "lecture2",
-                        "lectureTitle": "Cloud Service Models",
+                        "lectureTitle": "History of HTML and key changes in HTML5.",
+                        "lectureDuration": 720,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Setting up a web development environment",
                         "lectureDuration": 720,
                         "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
                         "isPreviewFree": false,
@@ -1339,11 +1348,11 @@ export const dummyCourses = [
             {
                 "chapterId": "chapter2",
                 "chapterOrder": 2,
-                "chapterTitle": "Exploring Cloud Platforms",
+                "chapterTitle": "HTML5 Semantic Elements",
                 "chapterContent": [
                     {
                         "lectureId": "lecture3",
-                        "lectureTitle": "AWS Basics",
+                        "lectureTitle": "Introduction to semantic elements (header, nav, article, section, etc.).",
                         "lectureDuration": 800,
                         "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
                         "isPreviewFree": true,
@@ -1351,8 +1360,215 @@ export const dummyCourses = [
                     },
                     {
                         "lectureId": "lecture4",
-                        "lectureTitle": "Introduction to Google Cloud",
+                        "lectureTitle": "Creating structured web documents.",
                         "lectureDuration": 850,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Accessibility and SEO benefits of semantic markup.",
+                        "lectureDuration": 720,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Multimedia and Graphics",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Embedding audio and video elements.",
+                        "lectureDuration": 800,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Working with the canvas element for drawing and animations.",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Implementing responsive images.",
+                        "lectureDuration": 720,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Forms and Input Types",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Creating forms with new HTML5 form elements.",
+                        "lectureDuration": 800,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": " Input types, attributes, and form validation.",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "HTML5 input attributes for better user experience.",
+                        "lectureDuration": 720,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }  
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "HTML5 input attributes for better user experience.",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Geolocation and Web Storage",
+                        "lectureDuration": 800,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": " Accessing geolocation information.",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Implementing web applications with offline support.",
+                        "lectureDuration": 720,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": " CSS3 and Styling in HTML5",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Integration of CSS3 for advanced styling.",
+                        "lectureDuration": 800,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Flexbox and grid layout for responsive design.",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": " Animations and transitions.",
+                        "lectureDuration": 720,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Web APIs and Integration",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Integration of third-party APIs..",
+                        "lectureDuration": 800,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Using JavaScript to interact with HTML5 features.",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": " Implementing drag and drop, file handling, and more.",
+                        "lectureDuration": 720,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Mobile and Responsive Web Design",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Building responsive web pages with HTML5.",
+                        "lectureDuration": 800,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Mobile-first design and media queries.",
+                        "lectureDuration": 850,
+                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Best practices for mobile web development.",
+                        "lectureDuration": 720,
                         "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
                         "isPreviewFree": false,
                         "lectureOrder": 2
@@ -1368,24 +1584,24 @@ export const dummyCourses = [
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2024-12-31T05:32:55.357Z",
         "__v": 1,
-        "courseThumbnail": "https://img.youtube.com/vi/0yboGn8errU/maxresdefault.jpg"
+        "courseThumbnail": "https://img.youtube.com/vi/DPnqb74Smug/maxresdefault.jpg"
     },
     {
         "_id": "605c72efb3f1c2b1f8e4e1ad",
-        "courseTitle": "Data Science with Python",
-        "courseDescription": "<h2>Start Your Data Science Journey</h2><p>Data Science is one of the most in-demand fields in the world. This course teaches you the essentials of data analysis, visualization, and machine learning using Python. Learn libraries like Pandas, NumPy, Matplotlib, and Scikit-learn.</p><p>By the end of this course, you will be equipped to work on real-world data projects and gain insights from data.</p><ul><li>Data cleaning and preprocessing</li><li>Exploratory Data Analysis (EDA)</li><li>Build predictive models</li></ul>",
-        "coursePrice": 89.99,
+        "courseTitle": "CSS",
+        "courseDescription": "<h2>Master CSS</h2><p>CSS is a crucial technology for web design, enabling you to control the layout and visual presentation of web pages. This course will provide you with a comprehensive understanding of CSS and how to create attractive and responsive web designs.</p><p>By the end of this course, you will be equipped to work on real-world data projects and gain insights from data.</p><ul><li>Data cleaning and preprocessing</li><li>Exploratory Data Analysis (EDA)</li><li>Build predictive models</li></ul>",
+        "coursePrice": 6875,
         "isPublished": true,
         "discount": 20,
         "courseContent": [
             {
                 "chapterId": "chapter1",
                 "chapterOrder": 1,
-                "chapterTitle": "Python for Data Science",
+                "chapterTitle": " Introduction to CSS",
                 "chapterContent": [
                     {
                         "lectureId": "lecture1",
-                        "lectureTitle": "Python Basics",
+                        "lectureTitle": "Overview of CSS and its role in web development.",
                         "lectureDuration": 30,
                         "lectureUrl": "https://youtu.be/samplelink1",
                         "isPreviewFree": true,
@@ -1393,7 +1609,16 @@ export const dummyCourses = [
                     },
                     {
                         "lectureId": "lecture2",
-                        "lectureTitle": "Working with NumPy",
+                        "lectureTitle": "Understanding the separation of content and style.",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Setting up a web development environment.",
                         "lectureDuration": 25,
                         "lectureUrl": "https://youtu.be/samplelink2",
                         "isPreviewFree": false,
@@ -1404,11 +1629,11 @@ export const dummyCourses = [
             {
                 "chapterId": "chapter2",
                 "chapterOrder": 2,
-                "chapterTitle": "Data Visualization",
+                "chapterTitle": "CSS Selectors and Properties",
                 "chapterContent": [
                     {
                         "lectureId": "lecture3",
-                        "lectureTitle": "Introduction to Matplotlib",
+                        "lectureTitle": "CSS selectors and their specificity.",
                         "lectureDuration": 20,
                         "lectureUrl": "https://youtu.be/samplelink3",
                         "isPreviewFree": true,
@@ -1416,9 +1641,216 @@ export const dummyCourses = [
                     },
                     {
                         "lectureId": "lecture4",
-                        "lectureTitle": "Advanced Visualizations with Seaborn",
+                        "lectureTitle": "Applying CSS properties to HTML elements.",
                         "lectureDuration": 25,
                         "lectureUrl": "https://youtu.be/samplelink4",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": " Colors, fonts, text properties, and more.",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Box Model and Layout",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Understanding the CSS box model.",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/samplelink5",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Positioning elements with CSS.",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Flexbox and grid layout for responsive design.",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Positioning and Floats",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Positioning elements with CSS (static, relative, absolute, fixed).",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Floating elements and creating multi-column layouts.",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Clearing floats and managing layout challenges.",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "CSS Flexbox and Grid Layout",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Introduction to CSS Flexbox.",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/samplelink9",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Building flexible and responsive designs with Flexbox.",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink10",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "CSS Grid Layout for advanced grid-based designs.",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }   
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "CSS Transitions and Animations",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Implementing smooth transitions.",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/samplelink11",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": " Creating animations with CSS.",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink12",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": " Timing and easing functions.",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Responsive Web Design",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": " Principles of responsive design.",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/samplelink11",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Media queries and breakpoints.",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink12",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Building responsive navigation menus.",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "CSS Transitions and Animations",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Implementing smooth transitions.",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/samplelink11",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": " Creating animations with CSS.",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink12",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                    ,
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": " Timing and easing functions.",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
@@ -1441,11 +1873,11 @@ export const dummyCourses = [
         "createdAt": "2024-12-27T10:00:00.000Z",
         "updatedAt": "2024-12-31T09:57:48.992Z",
         "__v": 3,
-        "courseThumbnail": "https://img.youtube.com/vi/E4znbZgUWzA/maxresdefault.jpg"
+        "courseThumbnail": "https://img.youtube.com/vi/0hrJGWrCux0/maxresdefault.jpg"
     },
     {
         "_id": "605c72efb3f1c2b1f8e4e1aa",
-        "courseTitle": "Data Science and Machine Learning",
+        "courseTitle": "CSS Preprocessors and Best Practices",
         "courseDescription": "<h2>Unlock the Power of Data</h2><p>This course provides a comprehensive introduction to data science and machine learning. You will learn how to analyze data, build predictive models, and apply machine learning algorithms to real-world problems.</p><p>By the end of this course, you will have a solid understanding of data manipulation, visualization, and machine learning techniques, enabling you to make data-driven decisions.</p><ul><li>Understand data analysis and visualization</li><li>Learn machine learning algorithms and their applications</li><li>Work with popular data science libraries like Pandas and Scikit-Learn</li></ul>",
         "coursePrice": 89.99,
         "isPublished": true,
@@ -1454,7 +1886,7 @@ export const dummyCourses = [
             {
                 "chapterId": "chapter1",
                 "chapterOrder": 1,
-                "chapterTitle": "Introduction to Data Science",
+                "chapterTitle": "Introduction to CSS preprocessors (e.g., SASS, LESS).",
                 "chapterContent": [
                     {
                         "lectureId": "lecture1",
@@ -1466,31 +1898,17 @@ export const dummyCourses = [
                     },
                     {
                         "lectureId": "lecture2",
-                        "lectureTitle": "Data Collection and Cleaning",
+                        "lectureTitle": "CSS organization and best practices.",
                         "lectureDuration": 720,
                         "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
-                ]
-            },
-            {
-                "chapterId": "chapter2",
-                "chapterOrder": 2,
-                "chapterTitle": "Machine Learning Basics",
-                "chapterContent": [
+                    ,
                     {
-                        "lectureId": "lecture3",
-                        "lectureTitle": "Supervised vs Unsupervised Learning",
-                        "lectureDuration": 800,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture4",
-                        "lectureTitle": "Building Your First Model",
-                        "lectureDuration": 850,
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Code optimization and browser compatibility.",
+                        "lectureDuration": 720,
                         "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
                         "isPreviewFree": false,
                         "lectureOrder": 2
