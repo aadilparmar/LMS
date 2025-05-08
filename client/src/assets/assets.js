@@ -4017,7 +4017,7 @@ export const dummyCourses = [
     {
         "_id": "805d34f7b8c9a1e2f7d8c3ab",
         "courseTitle": "CorelDRAW Graphic Design",
-        "courseDescription": "<h2>Learn Advance PHP</h2><p>CorelDRAW is a popular vector graphics software used for graphic design and illustration. This course will provide you with a comprehensive understanding of CorelDRAW's tools and features, enabling you to create professional-quality graphic designs.</p><ul><li>Understand common cybersecurity threats</li><li>Learn about encryption and secure communication</li><li>Explore tools for penetration testing</li></ul>",
+        "courseDescription": "<h2>Learn CorelDRAW Graphic Design</h2><p>CorelDRAW is a popular vector graphics software used for graphic design and illustration. This course will provide you with a comprehensive understanding of CorelDRAW's tools and features, enabling you to create professional-quality graphic designs.</p><ul><li>Understand common cybersecurity threats</li><li>Learn about encryption and secure communication</li><li>Explore tools for penetration testing</li></ul>",
         "coursePrice": 25000,
         "isPublished": true,
         "discount": 50,
@@ -4270,7 +4270,7 @@ export const dummyCourses = [
                     }
                 ]
             }
-        
+
         ],
         "educator": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
@@ -4281,5 +4281,541 @@ export const dummyCourses = [
         "updatedAt": "2025-01-02T06:56:13.208Z",
         "__v": 1,
         "courseThumbnail": "https://img.youtube.com/vi/mbpoxL_kCNE/maxresdefault.jpg"
+    }
+    ,
+    {
+        "_id": "201d34f7b8c9a1e2f7d8c3ab",
+        "courseTitle": "Bootstrap Web Development",
+        "courseDescription": "<h2>Learn Bootstrap</h2><p> Bootstrap is a widely used front-end framework for building responsive and visually appealing web applications. This course will provide you with a comprehensive understanding of Bootstrap and how to create modern and responsive web designs.</p><ul><li>Understand common cybersecurity threats</li><li>Learn about encryption and secure communication</li><li>Explore tools for penetration testing</li></ul>",
+        "coursePrice": 17000,
+        "isPublished": true,
+        "discount": 50,
+        "courseContent": [
+            {
+                "chapterId": "chapter1",
+                "chapterOrder": 1,
+                "chapterTitle": "Introduction to Bootstrap",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture1",
+                        "lectureTitle": "Overview of Bootstrap and Its Significance in Web Development",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink1",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Understanding the Responsive Design Philosophy",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Setting Up a Web Development Environment with Bootstrap",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink3",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Bootstrap Grid System",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Introduction to the Bootstrap Grid System",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink4",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Creating Responsive Layouts with Rows and Columns",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink5",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Nesting Columns for Advanced Designs",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Typography and CSS Styles",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Utilizing Bootstrap Typography Classes",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Customizing Text, Headings, and Font Styles",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Applying CSS Styles with Bootstrap Classes",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink9",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Bootstrap Components",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Working with Bootstrap Components (Navigation Bars, Buttons, Forms)",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink10",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Utilizing Pre-Styled UI Elements",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink11",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture12",
+                        "lectureTitle": "Customizing and Extending Bootstrap Components",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink12",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Responsive Design with Bootstrap",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture13",
+                        "lectureTitle": "Building Responsive Navigation Menus",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink13",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture14",
+                        "lectureTitle": "Creating Responsive Images and Media",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink14",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture15",
+                        "lectureTitle": "Handling Content Visibility on Different Devices",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink15",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "chapterOrder": 6,
+                "chapterTitle": "Bootstrap and JavaScript",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture16",
+                        "lectureTitle": "Implementing Interactive Elements with Bootstrap's JavaScript Plugins",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink16",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture17",
+                        "lectureTitle": "Modal Dialogs, Carousels, and Accordions",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink17",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture18",
+                        "lectureTitle": "Customizing and Extending Bootstrap's JavaScript Functionality",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink18",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "chapterOrder": 7,
+                "chapterTitle": "Customization and Theming",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture19",
+                        "lectureTitle": "Customizing Bootstrap with Variables and Themes",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink19",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture20",
+                        "lectureTitle": "Creating Your Own Custom Bootstrap Builds",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink20",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture21",
+                        "lectureTitle": "Integrating Bootstrap with Your Projects",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink21",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "chapterOrder": 8,
+                "chapterTitle": "Building Web Applications with Bootstrap",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture22",
+                        "lectureTitle": "Building Complete Web Applications Using Bootstrap",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink22",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture23",
+                        "lectureTitle": "Best Practices for Integrating Bootstrap with JavaScript Frameworks",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink23",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture24",
+                        "lectureTitle": "Deployment and Optimization of Bootstrap-Based Projects",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink24",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            }
+        ],
+        "educator": "675ac1512100b91a6d9b8b24",
+        "enrolledStudents": [
+            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+        ],
+        "courseRatings": [],
+        "createdAt": "2024-12-17T08:16:53.622Z",
+        "updatedAt": "2025-01-02T06:56:13.208Z",
+        "__v": 1,
+        "courseThumbnail": "https://img.youtube.com/vi/O_9u1P5YjVc/maxresdefault.jpg"
+    },
+    {
+        "_id": "301b34f7b8c9a1e2f7d8c3ab",
+        "courseTitle": "Node.js Web Development ",
+        "courseDescription": "<h2>Learn Node Js Development</h2><p> Node.js is a powerful runtime environment for building server-side applications using JavaScript. This course will provide you with a comprehensive understanding of Node.js and how to create scalable and efficient web applications.</p><ul><li>Understand common cybersecurity threats</li><li>Learn about encryption and secure communication</li><li>Explore tools for penetration testing</li></ul>",
+        "coursePrice": 17000,
+        "isPublished": true,
+        "discount": 50,
+        "courseContent": [
+            {
+                "chapterId": "chapter1",
+                "chapterOrder": 1,
+                "chapterTitle": "Introduction to Node.js",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture1",
+                        "lectureTitle": "Overview of Node.js and Its Role in Web Development",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink1",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Setting Up a Node.js Development Environment",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Understanding Event-Driven, Non-Blocking Architecture",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink3",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Core Modules and File System Operations",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Using Node.js Core Modules (fs, http, url, path)",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink4",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Reading and Writing Files, Working with Directories",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink5",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Handling Asynchronous Operations with Callbacks and Promises",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Creating HTTP Servers and REST APIs",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Building HTTP Servers with Node.js",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Handling HTTP Requests and Responses",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Designing and Implementing RESTful APIs",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink9",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Package Management with npm",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Managing Dependencies and Packages with npm",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink10",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Creating and Publishing Node.js Modules",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink11",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture12",
+                        "lectureTitle": "Understanding Semantic Versioning",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink12",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Asynchronous Programming and Event Loop",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture13",
+                        "lectureTitle": "Understanding the Node.js Event Loop",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink13",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture14",
+                        "lectureTitle": "Working with Callbacks, Promises, and Async/Await",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink14",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture15",
+                        "lectureTitle": "Event Emitters and Custom Event Handling",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink15",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "chapterOrder": 6,
+                "chapterTitle": "Web Frameworks (e.g., Express.js)",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture16",
+                        "lectureTitle": "Introduction to Web Frameworks",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink16",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture17",
+                        "lectureTitle": "Building Web Applications with Express.js",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink17",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture18",
+                        "lectureTitle": "Middleware, Routing, and Request Handling",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink18",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "chapterOrder": 7,
+                "chapterTitle": "Database Integration (e.g., MongoDB)",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture19",
+                        "lectureTitle": "Connecting to Databases",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink19",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture20",
+                        "lectureTitle": "Performing CRUD Operations with Node.js",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink20",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture21",
+                        "lectureTitle": "Mongoose ODM for MongoDB",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink21",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "chapterOrder": 8,
+                "chapterTitle": "WebSockets and Real-Time Applications",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture22",
+                        "lectureTitle": "Introduction to WebSocket Communication",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink22",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture23",
+                        "lectureTitle": "Building Real-Time Chat Applications",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink23",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture24",
+                        "lectureTitle": "Scalability Considerations for Real-Time Apps",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink24",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            }    
+        ],
+        "educator": "675ac1512100b91a6d9b8b24",
+        "enrolledStudents": [
+            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+        ],
+        "courseRatings": [],
+        "createdAt": "2024-12-17T08:16:53.622Z",
+        "updatedAt": "2025-01-02T06:56:13.208Z",
+        "__v": 1,
+        "courseThumbnail": "https://img.youtube.com/vi/MIJt9H69QVc/maxresdefault.jpg"
     }
 ]
