@@ -1877,44 +1877,261 @@ export const dummyCourses = [
     },
     {
         "_id": "605c72efb3f1c2b1f8e4e1aa",
-        "courseTitle": "CSS Preprocessors and Best Practices",
-        "courseDescription": "<h2>Unlock the Power of Data</h2><p>This course provides a comprehensive introduction to data science and machine learning. You will learn how to analyze data, build predictive models, and apply machine learning algorithms to real-world problems.</p><p>By the end of this course, you will have a solid understanding of data manipulation, visualization, and machine learning techniques, enabling you to make data-driven decisions.</p><ul><li>Understand data analysis and visualization</li><li>Learn machine learning algorithms and their applications</li><li>Work with popular data science libraries like Pandas and Scikit-Learn</li></ul>",
-        "coursePrice": 89.99,
+        "courseTitle": "Robotics : Principles and Applications",
+        "courseDescription": "<h2>Unlock theRobotics</h2><p>Robotics is a multidisciplinary field that combines mechanical engineering, electronics, and computer science to design and build robots. This course will introduce you to the principles of robotics and guide you through the process of creating, programming, and controlling robots.</p><ul><li>Understand data analysis and visualization</li><li>Learn machine learning algorithms and their applications</li><li>Work with popular data science libraries like Pandas and Scikit-Learn</li></ul>",
+        "coursePrice": 35714.2857142857,
         "isPublished": true,
         "discount": 30,
         "courseContent": [
             {
                 "chapterId": "chapter1",
                 "chapterOrder": 1,
-                "chapterTitle": "Introduction to CSS preprocessors (e.g., SASS, LESS).",
+                "chapterTitle": "Introduction to Robotics",
                 "chapterContent": [
                     {
                         "lectureId": "lecture1",
-                        "lectureTitle": "What is Data Science?",
-                        "lectureDuration": 600,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "lectureTitle": "Overview of Robotics and Its Applications",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink1",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
                     {
                         "lectureId": "lecture2",
-                        "lectureTitle": "CSS organization and best practices.",
-                        "lectureDuration": 720,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "lectureTitle": "Historical Development and Significance of Robotics",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
                         "isPreviewFree": false,
                         "lectureOrder": 2
-                    }
-                    ,
+                    },
                     {
-                        "lectureId": "lecture2",
-                        "lectureTitle": "Code optimization and browser compatibility.",
-                        "lectureDuration": 720,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Types of Robots and Their Functionalities",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Mechanics and Motion in Robotics",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Understanding Robot Components and Structures",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/samplelink3",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Kinematic Analysis and Motion Modeling",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink4",
                         "isPreviewFree": false,
                         "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Inverse and Forward Kinematics for Robot Movement",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Sensory Systems and Robot Perception",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Sensor Types Used in Robotics",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink5",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Data Acquisition and Processing for Robot Perception",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Mapping and Localization Techniques",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Programming and Control of Robots",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Programming Languages and Environments for Robot Control",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Control Methods, Including PID Controllers",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink9",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture12",
+                        "lectureTitle": "Trajectory Planning and Motion Control Strategies",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink10",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Vision Systems in Robotics",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture13",
+                        "lectureTitle": "Basics of Computer Vision for Robots",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink11",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture14",
+                        "lectureTitle": "Object Recognition, Tracking, and Manipulation",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink12",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture15",
+                        "lectureTitle": "Applications of Robotic Vision in Industry",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink13",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "chapterOrder": 6,
+                "chapterTitle": "Robot Navigation and Mapping",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture16",
+                        "lectureTitle": "Understanding SLAM (Simultaneous Localization and Mapping)",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink14",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture17",
+                        "lectureTitle": "Building and Updating Maps in Dynamic Environments",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink15",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture18",
+                        "lectureTitle": "Navigational Algorithms and Path Planning",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink16",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "chapterOrder": 7,
+                "chapterTitle": "Real-World Robotics Applications",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture19",
+                        "lectureTitle": "Case Studies and Industrial Robotics",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink17",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture20",
+                        "lectureTitle": "Collaborative Robots (Cobots) and Automation",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink18",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture21",
+                        "lectureTitle": "Medical and Healthcare Robotics, Drones, and More",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink19",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "chapterOrder": 8,
+                "chapterTitle": "Future of Robotics and Ethical Considerations",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture22",
+                        "lectureTitle": "Ethical Challenges and Responsibilities in Robotics",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink20",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture23",
+                        "lectureTitle": "Emerging Technologies and Advancements",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink21",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture24",
+                        "lectureTitle": "Preparing for a Career in Robotics",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink22",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
                     }
                 ]
             }
+    
         ],
         "educator": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
@@ -1924,59 +2141,261 @@ export const dummyCourses = [
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2025-01-02T06:53:59.753Z",
         "__v": 1,
-        "courseThumbnail": "https://img.youtube.com/vi/631lFJdQvoo/maxresdefault.jpg"
+        "courseThumbnail": "https://img.youtube.com/vi/NRj6gzah7JA/maxresdefault.jpg"
     },
     {
         "_id": "605c72efb3f1c2b1f8e4e1ab",
-        "courseTitle": "Introduction to Cybersecurity",
-        "courseDescription": "<h2>Protect the Digital World</h2><p>This course covers the essentials of cybersecurity, including understanding threats, vulnerabilities, and how to secure systems against cyber-attacks. Ideal for beginners, this course will prepare you for a career in cybersecurity.</p><p>By the end of this course, you will be able to identify and mitigate risks, implement security best practices, and understand the fundamentals of encryption and network security.</p><ul><li>Understand common cybersecurity threats</li><li>Learn about encryption and secure communication</li><li>Explore tools for penetration testing</li></ul>",
-        "coursePrice": 59.99,
+        "courseTitle": "Machine Learning (ML)",
+        "courseDescription": "<h2>Protect the Digital World</h2><p>Machine Learning is a vital field within Artificial Intelligence that focuses on the development of algorithms and models that enable computers to learn and make predictions from data. This course will provide you with a comprehensive understanding of machine learning techniques and their practical applications.</p><ul><li>Understand common cybersecurity threats</li><li>Learn about encryption and secure communication</li><li>Explore tools for penetration testing</li></ul>",
+        "coursePrice": 22940,
         "isPublished": true,
         "discount": 15,
         "courseContent": [
             {
                 "chapterId": "chapter1",
                 "chapterOrder": 1,
-                "chapterTitle": "Cybersecurity Basics",
+                "chapterTitle": "Foundations of Machine Learning",
                 "chapterContent": [
                     {
                         "lectureId": "lecture1",
-                        "lectureTitle": "Introduction to Cybersecurity",
-                        "lectureDuration": 700,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "lectureTitle": "Overview of Machine Learning and Its Significance",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink1",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
                     {
                         "lectureId": "lecture2",
-                        "lectureTitle": "Understanding Cyber Threats",
-                        "lectureDuration": 750,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "lectureTitle": "Types of Machine Learning: Supervised, Unsupervised, Reinforcement",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
                         "isPreviewFree": false,
                         "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "The Machine Learning Workflow",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink3",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
                     }
                 ]
             },
             {
                 "chapterId": "chapter2",
                 "chapterOrder": 2,
-                "chapterTitle": "Network Security Fundamentals",
+                "chapterTitle": "Data Preparation and Feature Engineering",
                 "chapterContent": [
                     {
-                        "lectureId": "lecture3",
-                        "lectureTitle": "Securing Networks",
-                        "lectureDuration": 800,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Data Cleaning and Transformation Techniques",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink4",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
                     {
-                        "lectureId": "lecture4",
-                        "lectureTitle": "Firewalls and VPNs",
-                        "lectureDuration": 850,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Feature Selection and Extraction for Optimization",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink5",
                         "isPreviewFree": false,
                         "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Handling Missing Data and Outlier Detection",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Supervised Learning Algorithms",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Linear and Logistic Regression Explained",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Decision Trees, Random Forests, and Ensemble Learning",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Support Vector Machines and k-Nearest Neighbors",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink9",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Unsupervised Learning Techniques",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Clustering Approaches: K-Means, Hierarchical, DBSCAN",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink10",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Applying Dimensionality Reduction with PCA",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink11",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture12",
+                        "lectureTitle": "Anomaly Detection and Association Rule Mining",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink12",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Deep Learning and Neural Networks",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture13",
+                        "lectureTitle": "Introduction to Neural Networks and Deep Learning",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink13",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture14",
+                        "lectureTitle": "Training Deep Learning Models Efficiently",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink14",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture15",
+                        "lectureTitle": "Exploring CNNs and RNNs",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink15",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            }
+            ,{
+                "chapterId": "chapter6",
+                "chapterOrder": 6,
+                "chapterTitle": "Model Evaluation and Optimization",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture16",
+                        "lectureTitle": "Cross-Validation and Model Evaluation Metrics",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink16",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture17",
+                        "lectureTitle": "Managing Overfitting and Underfitting",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink17",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture18",
+                        "lectureTitle": "Hyperparameter Optimization Strategies",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink18",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "chapterOrder": 7,
+                "chapterTitle": "Practical Machine Learning Applications",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture19",
+                        "lectureTitle": "Real-World Machine Learning Case Studies",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink19",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture20",
+                        "lectureTitle": "Designing and Implementing ML Models",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink20",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture21",
+                        "lectureTitle": "Presenting and Documenting Analytical Results",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink21",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "chapterOrder": 8,
+                "chapterTitle": "Ethics and Future Directions in Machine Learning",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture22",
+                        "lectureTitle": "Ethical Challenges and Responsibilities in ML",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink22",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture23",
+                        "lectureTitle": "Emerging Trends and Advancements in AI",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink23",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture24",
+                        "lectureTitle": "Preparing for Careers and Opportunities in ML",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink24",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
                     }
                 ]
             }
@@ -1989,6 +2408,274 @@ export const dummyCourses = [
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2025-01-02T06:56:13.208Z",
         "__v": 1,
-        "courseThumbnail": "https://img.youtube.com/vi/WbV3zRgpw_E/maxresdefault.jpg"
+        "courseThumbnail": "https://img.youtube.com/vi/LvC68w9JS4Y/maxresdefault.jpg"
+    },
+    {
+        "_id": "605c72efb3f1c2b1f8e6b1ac",
+        "courseTitle": "SQL server",
+        "courseDescription": "<h2>Learn SQL !! </h2><p>SQL Server is a widely used relational database management system (RDBMS) with applications in data storage, retrieval, and management. This course will equip you with the skills to work with SQL Server for both administrative tasks and database development.</p><ul><li>Understand common cybersecurity threats</li><li>Learn about encryption and secure communication</li><li>Explore tools for penetration testing</li></ul>",
+        "coursePrice": 22940,
+        "isPublished": true,
+        "discount": 15,
+        "courseContent": [
+            {
+                "chapterId": "chapter1",
+                "chapterOrder": 1,
+                "chapterTitle": "Introduction to SQL Server",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture1",
+                        "lectureTitle": "Overview of SQL Server and Its Significance",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink1",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Understanding the Client-Server Architecture",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Different Editions and Features of SQL Server",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink3",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "SQL Server Installation and Configuration",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Installing SQL Server: Step-by-Step Guide",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink4",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Configuring Server Settings for Optimal Performance",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink5",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Managing Security and Access Controls",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Database Design and Normalization",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Database Design Principles: Best Practices",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Creating and Managing Database Schemas",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Data Normalization and Denormalization Techniques",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink9",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "SQL Server Querying",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Writing SQL Queries in T-SQL",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink10",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Retrieving Data with SELECT Statements",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink11",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture12",
+                        "lectureTitle": "Filtering and Sorting Query Results",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink12",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            }
+            ,
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "SQL Server Administration",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture13",
+                        "lectureTitle": "Managing Database Objects (Tables, Views, Stored Procedures)",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink13",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture14",
+                        "lectureTitle": "Backup and Recovery Strategies",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink14",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture15",
+                        "lectureTitle": "Performance Tuning and Optimization",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink15",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "chapterOrder": 6,
+                "chapterTitle": "Data Manipulation and Transactions",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture16",
+                        "lectureTitle": "Inserting, Updating, and Deleting Data",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink16",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture17",
+                        "lectureTitle": "Managing Transactions in SQL Server",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink17",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture18",
+                        "lectureTitle": "Error Handling and Transaction Management",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink18",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "chapterOrder": 7,
+                "chapterTitle": "Advanced Database Development",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture19",
+                        "lectureTitle": "Creating and Managing Indexes",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink19",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture20",
+                        "lectureTitle": "Triggers and User-Defined Functions",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink20",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture21",
+                        "lectureTitle": "Dynamic SQL and Advanced Programming Techniques",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink21",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "chapterOrder": 8,
+                "chapterTitle": "High Availability and Security",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture22",
+                        "lectureTitle": "Implementing High Availability Solutions (Clustering, AlwaysOn)",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink22",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture23",
+                        "lectureTitle": "Security Features and Best Practices",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink23",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture24",
+                        "lectureTitle": "Auditing and Compliance in SQL Server",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink24",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+        ],
+        "educator": "675ac1512100b91a6d9b8b24",
+        "enrolledStudents": [
+            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+        ],
+        "courseRatings": [],
+        "createdAt": "2024-12-17T08:16:53.622Z",
+        "updatedAt": "2025-01-02T06:56:13.208Z",
+        "__v": 1,
+        "courseThumbnail": "https://img.youtube.com/vi/HvxmF0FUwrM/maxresdefault.jpg"
     }
 ]
