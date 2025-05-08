@@ -2677,5 +2677,1074 @@ export const dummyCourses = [
         "updatedAt": "2025-01-02T06:56:13.208Z",
         "__v": 1,
         "courseThumbnail": "https://img.youtube.com/vi/HvxmF0FUwrM/maxresdefault.jpg"
+    },
+    {
+        "_id": "702a72efb3f1c2b1f8e6b1ac",
+        "courseTitle": "My SQL",
+        "courseDescription": "<h2>Learn My SQL !! </h2><p>SQL Server is a widely used relational database management system (RDBMS) with applications in data storage, retrieval, and management. This course will equip you with the skills to work with SQL Server for both administrative tasks and database development.</p><ul><li>Understand common cybersecurity threats</li><li>Learn about encryption and secure communication</li><li>Explore tools for penetration testing</li></ul>",
+        "coursePrice": 9444,
+        "isPublished": true,
+        "discount": 10,
+        "courseContent": [
+            {
+                "chapterId": "chapter1",
+                "chapterOrder": 1,
+                "chapterTitle": "Introduction to MySQL",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture1",
+                        "lectureTitle": "Overview of MySQL and Its Importance",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink1",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Understanding the Relational Database Model",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Different MySQL Editions and Features",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink3",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "MySQL Installation and Configuration",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Installing MySQL Server: A Step-by-Step Guide",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink4",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Configuring MySQL Server Settings",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink5",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Managing Security and Access Controls in MySQL",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Database Design and Normalization",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Fundamentals of Database Design",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Creating and Managing Database Schemas",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Data Normalization and Denormalization Techniques",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink9",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "MySQL Querying",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Writing SQL Queries for MySQL",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink10",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Retrieving Data with SELECT Statements",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink11",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture12",
+                        "lectureTitle": "Filtering and Sorting Query Results",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink12",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            }
+            ,{
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "MySQL Administration",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture13",
+                        "lectureTitle": "Managing Database Objects (Tables, Views, Stored Procedures)",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink13",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture14",
+                        "lectureTitle": "Backup and Recovery Strategies in MySQL",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink14",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture15",
+                        "lectureTitle": "Performance Tuning and Optimization Techniques",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink15",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "chapterOrder": 6,
+                "chapterTitle": "Data Manipulation and Transactions",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture16",
+                        "lectureTitle": "Inserting, Updating, and Deleting Data in MySQL",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink16",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture17",
+                        "lectureTitle": "Managing Transactions for Data Integrity",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink17",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture18",
+                        "lectureTitle": "Error Handling and Transaction Management",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink18",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "chapterOrder": 7,
+                "chapterTitle": "Advanced Database Development",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture19",
+                        "lectureTitle": "Creating and Managing Indexes in MySQL",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink19",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture20",
+                        "lectureTitle": "Triggers and Stored Procedures Explained",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink20",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture21",
+                        "lectureTitle": "Dynamic SQL and Advanced Programming Techniques",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink21",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "chapterOrder": 8,
+                "chapterTitle": "High Availability and Security",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture22",
+                        "lectureTitle": "Implementing High Availability Solutions in MySQL",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink22",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture23",
+                        "lectureTitle": "MySQL Security Features and Best Practices",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink23",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture24",
+                        "lectureTitle": "Auditing and Compliance in MySQL",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink24",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            }
+        ],
+        "educator": "675ac1512100b91a6d9b8b24",
+        "enrolledStudents": [
+            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+        ],
+        "courseRatings": [],
+        "createdAt": "2024-12-17T08:16:53.622Z",
+        "updatedAt": "2025-01-02T06:56:13.208Z",
+        "__v": 1,
+        "courseThumbnail": "https://img.youtube.com/vi/5OdVJbNCSso/maxresdefault.jpg"
+    }
+    ,
+    {
+        "_id": "605f89d2a1c4e3b6f9d7c2bf",
+        "courseTitle": "MongoDB Database Administration and Development ",
+        "courseDescription": "<h2>Learn SQL !! </h2><p>MongoDB is a popular open-source NoSQL database system known for its flexibility and scalability. This course will equip you with the skills to work with MongoDB for both administrative tasks and database development.</p><ul><li>Understand common cybersecurity threats</li><li>Learn about encryption and secure communication</li><li>Explore tools for penetration testing</li></ul>",
+        "coursePrice": 17000,
+        "isPublished": true,
+        "discount": 50,
+        "courseContent": [
+            {
+                "chapterId": "chapter1",
+                "chapterOrder": 1,
+                "chapterTitle": "Introduction to MongoDB",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture1",
+                        "lectureTitle": "Overview of MongoDB and Its Significance",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink1",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Understanding NoSQL Databases",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Different MongoDB Editions and Features",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink3",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "MongoDB Installation and Configuration",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Installing MongoDB",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink4",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Configuring Server Settings",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink5",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Managing Security and Access",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Data Modeling and Schema Design",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Designing Document-Based Data Models",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Creating and Managing Collections",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Data Modeling Best Practices",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink9",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Querying and CRUD Operations",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Performing CRUD Operations",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink10",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Filtering, Projection, and Sorting Documents",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink11",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture12",
+                        "lectureTitle": "Aggregation Framework for Complex Queries",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink12",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Indexing and Performance Optimization",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture13",
+                        "lectureTitle": "Creating and Managing Indexes",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink13",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture14",
+                        "lectureTitle": "Performance Optimization Techniques",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink14",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture15",
+                        "lectureTitle": "Query Profiling and Monitoring",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink15",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "chapterOrder": 6,
+                "chapterTitle": "MongoDB Administration",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture16",
+                        "lectureTitle": "Managing Databases and Collections",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink16",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture17",
+                        "lectureTitle": "Backup and Restoration Strategies",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink17",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture18",
+                        "lectureTitle": "Replication and High Availability in MongoDB",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink18",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "chapterOrder": 7,
+                "chapterTitle": "Sharding and Scaling",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture19",
+                        "lectureTitle": "Horizontal Scaling with Sharding",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink19",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture20",
+                        "lectureTitle": "Scaling Strategies and Considerations",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink20",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture21",
+                        "lectureTitle": "Deploying MongoDB Clusters",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink21",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "chapterOrder": 8,
+                "chapterTitle": "Application Development with MongoDB",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture22",
+                        "lectureTitle": "Integrating MongoDB with Programming Languages",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink22",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture23",
+                        "lectureTitle": "Building Applications Using MongoDB as the Data Store",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink23",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture24",
+                        "lectureTitle": "Data Aggregation and Pipeline Operations",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink24",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            }
+        ],
+        "educator": "675ac1512100b91a6d9b8b24",
+        "enrolledStudents": [
+            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+        ],
+        "courseRatings": [],
+        "createdAt": "2024-12-17T08:16:53.622Z",
+        "updatedAt": "2025-01-02T06:56:13.208Z",
+        "__v": 1,
+        "courseThumbnail": "https://img.youtube.com/vi/ExcRbA7fy_A/maxresdefault.jpg"
+    },
+    {
+        "_id": "504ba4f7b8c9a1e2f7d8c3ab",
+        "courseTitle": "PHP",
+        "courseDescription": "<h2>Learn PHP</h2><p>PHP is a popular server-side scripting language used for web development. This course will provide you with a comprehensive understanding of PHP, its applications, and how to build dynamic web applications.</p><ul><li>Understand common cybersecurity threats</li><li>Learn about encryption and secure communication</li><li>Explore tools for penetration testing</li></ul>",
+        "coursePrice": 21000,
+        "isPublished": true,
+        "discount": 50,
+        "courseContent": [
+            {
+                "chapterId": "chapter1",
+                "chapterOrder": 1,
+                "chapterTitle": "Introduction to PHP",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture1",
+                        "lectureTitle": "Overview of PHP and Its Role in Web Development",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink1",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Setting Up a PHP Development Environment",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Writing and Executing PHP Scripts",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink3",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "PHP Basics",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Variables, Data Types, and Operators in PHP",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink4",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Control Structures (if Statements, Loops, and Switches)",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink5",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Functions and User-Defined Functions in PHP",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "PHP and HTML",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Embedding PHP within HTML",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "Form Handling and Processing User Input",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Building Dynamic Web Pages with PHP",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink9",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "PHP and Databases",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Connecting to Databases (MySQL) with PHP",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink10",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Performing Database Operations (CRUD)",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink11",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture12",
+                        "lectureTitle": "Using SQL Queries with PHP",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink12",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Working with Cookies and Sessions",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture13",
+                        "lectureTitle": "Managing User Sessions and Authentication",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink13",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture14",
+                        "lectureTitle": "Handling Cookies and Session Variables",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink14",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture15",
+                        "lectureTitle": "Building Secure Web Applications",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink15",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "chapterOrder": 6,
+                "chapterTitle": "Object-Oriented PHP",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture16",
+                        "lectureTitle": "Introduction to Object-Oriented Programming in PHP",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink16",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture17",
+                        "lectureTitle": "Creating Classes and Objects",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink17",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture18",
+                        "lectureTitle": "Encapsulation, Inheritance, and Polymorphism",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink18",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "chapterOrder": 7,
+                "chapterTitle": "PHP Frameworks and Libraries",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture19",
+                        "lectureTitle": "Overview of Popular PHP Frameworks (Laravel, Symfony)",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink19",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture20",
+                        "lectureTitle": "Utilizing Third-Party Libraries and Packages",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink20",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture21",
+                        "lectureTitle": "Building Web Applications with Frameworks",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink21",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "chapterOrder": 8,
+                "chapterTitle": "Web Application Deployment",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture22",
+                        "lectureTitle": "Preparing Web Applications for Deployment",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink22",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture23",
+                        "lectureTitle": "Uploading and Configuring PHP Applications on Web Servers",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink23",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture24",
+                        "lectureTitle": "Troubleshooting and Debugging in a Production Environment",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink24",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            }    
+        ],
+        "educator": "675ac1512100b91a6d9b8b24",
+        "enrolledStudents": [
+            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+        ],
+        "courseRatings": [],
+        "createdAt": "2024-12-17T08:16:53.622Z",
+        "updatedAt": "2025-01-02T06:56:13.208Z",
+        "__v": 1,
+        "courseThumbnail": "https://img.youtube.com/vi/t0syDUSbdfE/maxresdefault.jpg"
+    },
+    {
+        "_id": "805d34f7b8c9a1e2f7d8c3ab",
+        "courseTitle": "Advance PHP",
+        "courseDescription": "<h2>Learn Advance PHP</h2><p>Advanced PHP development builds on the fundamentals of PHP programming and enables you to create complex, feature-rich web applications. This course focuses on advanced PHP topics and techniques for building robust, scalable web applications.</p><ul><li>Understand common cybersecurity threats</li><li>Learn about encryption and secure communication</li><li>Explore tools for penetration testing</li></ul>",
+        "coursePrice": 25000,
+        "isPublished": true,
+        "discount": 50,
+        "courseContent": [
+            {
+                "chapterId": "chapter1",
+                "chapterOrder": 1,
+                "chapterTitle": "Advanced PHP Features",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture1",
+                        "lectureTitle": "Understanding Namespaces and Autoloading",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink1",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Traits, Anonymous Classes, and Type Hinting",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink2",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture3",
+                        "lectureTitle": "Exception Handling and Custom Error Management",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink3",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter2",
+                "chapterOrder": 2,
+                "chapterTitle": "Database Interaction with PDO",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture4",
+                        "lectureTitle": "Introduction to PHP Data Objects (PDO)",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink4",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture5",
+                        "lectureTitle": "Prepared Statements for Secure Database Queries",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink5",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture6",
+                        "lectureTitle": "Transactions and Handling Errors in Database Operations",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter3",
+                "chapterOrder": 3,
+                "chapterTitle": "Building Secure Web Applications",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture7",
+                        "lectureTitle": "Handling Authentication and Authorization",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture8",
+                        "lectureTitle": "User Input Validation and Filtering",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture9",
+                        "lectureTitle": "Implementing Security Best Practices",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink9",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter4",
+                "chapterOrder": 4,
+                "chapterTitle": "Web Services and APIs with PHP",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture10",
+                        "lectureTitle": "Consuming and Creating RESTful APIs",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink10",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture11",
+                        "lectureTitle": "Working with JSON and XML Data",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink11",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture12",
+                        "lectureTitle": "Authentication in API Development",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink12",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter5",
+                "chapterOrder": 5,
+                "chapterTitle": "Caching and Performance Optimization",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture13",
+                        "lectureTitle": "Caching Techniques to Improve Web Application Performance",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink13",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture14",
+                        "lectureTitle": "Output Caching and Opcode Caching",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink14",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture15",
+                        "lectureTitle": "Profiling and Optimizing PHP Code",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink15",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter6",
+                "chapterOrder": 6,
+                "chapterTitle": "Advanced Object-Oriented PHP",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture16",
+                        "lectureTitle": "Advanced OOP Concepts in PHP",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink16",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture17",
+                        "lectureTitle": "Design Patterns (Singleton, Factory, Dependency Injection)",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink17",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture18",
+                        "lectureTitle": "Building Extensible and Maintainable Code",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink18",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter7",
+                "chapterOrder": 7,
+                "chapterTitle": "Real-Time Web Applications",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture19",
+                        "lectureTitle": "Introduction to WebSockets and Server-Sent Events",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink19",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture20",
+                        "lectureTitle": "Building Real-Time Chat Applications",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink20",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture21",
+                        "lectureTitle": "Scalability Considerations for Real-Time Web Applications",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink21",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            },
+            {
+                "chapterId": "chapter8",
+                "chapterOrder": 8,
+                "chapterTitle": "Advanced Web Development Frameworks",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture22",
+                        "lectureTitle": "Exploring Advanced Features of Popular PHP Frameworks (Laravel, Symfony)",
+                        "lectureDuration": 30,
+                        "lectureUrl": "https://youtu.be/samplelink22",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture23",
+                        "lectureTitle": "Extending and Customizing Web Applications with Frameworks",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink23",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    },
+                    {
+                        "lectureId": "lecture24",
+                        "lectureTitle": "Deployment and Maintenance of Advanced Web Applications",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/samplelink24",
+                        "isPreviewFree": false,
+                        "lectureOrder": 3
+                    }
+                ]
+            }    
+        ],
+        "educator": "675ac1512100b91a6d9b8b24",
+        "enrolledStudents": [
+            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+        ],
+        "courseRatings": [],
+        "createdAt": "2024-12-17T08:16:53.622Z",
+        "updatedAt": "2025-01-02T06:56:13.208Z",
+        "__v": 1,
+        "courseThumbnail": "https://img.youtube.com/vi/t0syDUSbdfE/maxresdefault.jpg"
     }
 ]
